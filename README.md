@@ -15,7 +15,7 @@ My changes:
 * Saves file as scraped Title + ".mp3", not default youtube_dl settings
 * Multiple prefixes: "Yt","yt","Ют","ют"
 
-<img alt="yt despacito" src="https://raw.githubusercontent.com/thezawad/teletubemp3/master/screenshot.png" width="350">
+![]bot.gif  
 
 ### Usage:
 Terminal:
