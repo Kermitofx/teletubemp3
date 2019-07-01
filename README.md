@@ -1,6 +1,10 @@
 # teletubemp3 - A Telegram Bot
+![python](https://img.shields.io/pypi/pyversions/Django.svg)
+![size](https://img.shields.io/github/size/ak-wa/teletubemp3/ytgr.py.svg)
+![lastcommit](https://img.shields.io/github/last-commit/ak-wa/teletubemp3.svg)
+![follow](https://img.shields.io/github/followers/ak-wa.svg?label=Follow&style=social)
 
-**teletubemp3 is a Telegram Bot which converts YouTube video(s) to mp3 and send directly to your Telegram.**  
+**teletubemp3 is a Telegram Bot which converts YouTube video(s) to mp3 and send directly to your Telegram.** 
   
 Original Project: https://github.com/thezawad/teletubemp3  
 My changes:  
