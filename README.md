@@ -15,7 +15,7 @@ My changes:
 * Saves file as scraped Title + ".mp3", not default youtube_dl settings
 * Multiple prefixes: "Yt","yt","Ют","ют"
 
-![]bot.gif  
+![](bot.gif)
 
 ### Usage:
 Terminal:
