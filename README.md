@@ -4,7 +4,7 @@
 ![lastcommit](https://img.shields.io/github/last-commit/ak-wa/teletubemp3.svg)
 ![follow](https://img.shields.io/github/followers/ak-wa.svg?label=Follow&style=social)
 
-**teletubemp3 is a Telegram Bot which converts YouTube video(s) to mp3 and send directly to your Telegram.** 
+**teletubemp3 is a Telegram Bot which converts YouTube videos to .mp3 and sends them directly to your Telegram.** 
   
 Original Project: https://github.com/thezawad/teletubemp3  
 My changes:  
@@ -17,18 +17,21 @@ My changes:
 
 <img alt="yt despacito" src="https://raw.githubusercontent.com/thezawad/teletubemp3/master/screenshot.png" width="350">
 
-### How does it work?
-
-* It takes your command ( `yt videoname` )
-* Uses `videoname` as a *keyword* to search in **YouTube**
+### Usage:
+Terminal:
+`python ytgr.py`  
+  
+Telegram:  
+* Message to bot: `yt videoname`
+* Searches for 'videoname' on Youtube
 * Takes the first link from YouTube
-* Download that video using **youtube_dl** library
-* Converts it into mp3 using **youtube_dl**
-* Sends it to your chatbox
+* Downloads the video
+* Converts it to mp3
+* Sends the youtube link + mp3 as response on Telegram
 
-### Installation
+### Installation:
 ```
-git clone https://github.com/thezawad/teletubemp3.git
+git clone https://github.com/Ak-wa/teletubemp3.git
 cd teletubemp3
 pip install telepot
 pip install urllib2
@@ -38,22 +41,4 @@ pip install youtube_dl
 brew install youtube-dl
 brew install ffmpeg
 ```
-Now create a file *api.txt* and put your **api-key**
-
-### Run
-While in the directly, run
-
-`python ytgr.py`
-
-You'll see 
-```
-[+] Server is Listenining [+]
-[=] Type Command from Telegram [=]
-```
-
-### Usage
-In your Telegram message box. Text
-
-`yt videoname`
-
-The Bot will find out the video from YouTube, converts it and send it to your Telegram.
+Create `api.txt` and put your Api-Key in there.
