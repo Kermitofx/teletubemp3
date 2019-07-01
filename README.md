@@ -4,7 +4,7 @@
 ![lastcommit](https://img.shields.io/github/last-commit/ak-wa/teletubemp3.svg)
 ![follow](https://img.shields.io/github/followers/ak-wa.svg?label=Follow&style=social)
 
-**teletubemp3 is a Telegram Bot which converts YouTube videos to .mp3 and sends them directly to your Telegram.** 
+**Telegram Bot for downloading Youtube videos as .mp3's & receiving in Telegram chat** 
   
 Original Project: https://github.com/thezawad/teletubemp3  
 My changes:  
